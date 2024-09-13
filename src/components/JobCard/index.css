@@ -1,0 +1,106 @@
+.job-item-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  min-height: 100vh;
+  width: 100vw;
+}
+.job-details-view-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1180px;
+  padding-top: 20px;
+}
+.job-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  margin: 20px;
+  
+  width: 90vw;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .job-item {
+    
+    width: 90vw;
+    margin: 20px;
+  }
+  .job-item-details-container {
+    width: 100vw;
+  }
+}
+.logo-title-location-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+.line {
+  border-color: #6a95ce;
+  width: 100%;
+}
+.description-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.visit-container {
+  display: flex;
+  align-items: center;
+}
+.visit-heading {
+  color: #6a95ce;
+  font-size: 14px;
+  font-family: 'Roboto';
+  text-decoration: none;
+  padding-right: 4px;
+}
+.description-heading {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.description-text {
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: 'Roboto';
+}
+.contact-icon-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.whatsapp_icon{
+  color: green;
+  font-size: 22px;
+  margin-right: 6px;
+}
+.whatsapp_num{
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: 'Roboto';
+}
+.apply_btn{
+  width: 130px;
+  align-self: center;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #6a95ce;
+  
+}

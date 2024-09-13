@@ -1,0 +1,81 @@
+
+.ul-job-items-container {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+.loader-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    min-height: 100vw;
+    
+}
+.jobs_view_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+   
+
+}
+.failure-img {
+    width: 90%;
+    height: 350px;
+}
+.failure-heading {
+    color: #140d0d;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.failure-paragraph {
+    color: #140d0d;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.jobs-failure-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.failure-button {
+    color: #ffffff;
+    background-color: #6366f1;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loader{
+    align-self: center;
+}
+.pages_no_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.page-btn{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.pages_heding{
+    padding-right: 20px;
+    font-size: 15px;
+    color: #6366f1;
+}
