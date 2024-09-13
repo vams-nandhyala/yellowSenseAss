@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yellowSenseAss/static/css/main.e57215ed.css",
+    "main.js": "/yellowSenseAss/static/js/main.ff4902d7.js",
+    "static/js/453.8ab44547.chunk.js": "/yellowSenseAss/static/js/453.8ab44547.chunk.js",
+    "index.html": "/yellowSenseAss/index.html",
+    "main.e57215ed.css.map": "/yellowSenseAss/static/css/main.e57215ed.css.map",
+    "main.ff4902d7.js.map": "/yellowSenseAss/static/js/main.ff4902d7.js.map",
+    "453.8ab44547.chunk.js.map": "/yellowSenseAss/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e57215ed.css",
+    "static/js/main.ff4902d7.js"
+  ]
+}
